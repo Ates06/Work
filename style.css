@@ -120,12 +120,12 @@ body {
     position: relative;
 }
 
-.a_card span {
+.a_wr span {
     color: black;
     font-size: 30px;
     position: absolute;
     top: 50px;
-    left: 70px;
+    left: 112px;
 }
 
 .a_card1 {
@@ -134,7 +134,7 @@ body {
     background-color: peru;
 }
 
-.a_writephone{
+.a_writephone {
     width: 90px;
     height: 35px;
     float: left;
@@ -146,13 +146,37 @@ body {
     align-items: center;
 }
 
-.a_img2{
+.a_img2 {
     width: 100%;
-    height:170px;
+    height: 170px;
     float: left;
     background-color: brown;
     background-image: url('https://www.shutterstock.com/image-vector/vector-headphones-icon-flat-design-260nw-350822219.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.a_altyaz {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: green;
+    position: relative;
+}
+
+.a_a span{
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
+.a_b span{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: 10px;
 }
