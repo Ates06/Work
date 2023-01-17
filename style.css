@@ -124,24 +124,35 @@ body {
     color: black;
     font-size: 30px;
     position: absolute;
-    top: 70px;
-    left: 112px;
+    top: 50px;
+    left: 70px;
 }
 
 .a_card1 {
-    width: 20%;
-    height: 200px;
+    width: 25%;
+    height: 250px;
     background-color: peru;
 }
 
 .a_writephone{
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 35px;
     float: left;
     background-color: wheat;
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 10px 0px 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.a_img2{
+    width: 100%;
+    height:170px;
+    float: left;
+    background-color: brown;
+    background-image: url('https://www.shutterstock.com/image-vector/vector-headphones-icon-flat-design-260nw-350822219.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
