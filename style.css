@@ -2,11 +2,15 @@ body {
     background-color: black;
 }
 
+.container{
+    background-color: white;
+}
+
 .a_img {
     width: 100%;
     height: 700px;
     float: left;
-    background-image: url('https://st4.depositphotos.com/36741820/38049/i/600/depositphotos_380497462-stock-photo-pink-headphone-and-cassette-on.jpg');
+    background-image: url('https://besthqwallpapers.com/Uploads/12-2-2020/121615/thumb2-black-headphones-yellow-background-minimal-headphones.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -64,14 +68,14 @@ body {
     width: 100%;
     min-height: 900px;
     float: left;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .a_lorm {
     width: 100%;
     min-height: 350px;
     float: left;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -97,7 +101,7 @@ body {
     width: 100%;
     min-height: 100px;
     float: left;
-    background-color: rgb(183, 183, 65);
+    background-color: rgb(247, 220, 122);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,7 +115,7 @@ body {
 .a_card {
     width: 100%;
     min-height: 450px;
-    background-color: blue;
+    /* background-color: blue; */
     float: left;
     display: flex;
     justify-content: center;
@@ -131,7 +135,7 @@ body {
 .a_card1 {
     width: 25%;
     height: 250px;
-    background-color: peru;
+    /* background-color: peru; */
 }
 
 .a_writephone {
@@ -150,7 +154,7 @@ body {
     width: 100%;
     height: 170px;
     float: left;
-    background-color: brown;
+    /* background-color: brown; */
     background-image: url('https://www.shutterstock.com/image-vector/vector-headphones-icon-flat-design-260nw-350822219.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -161,7 +165,7 @@ body {
     width: 100%;
     height: 80px;
     float: left;
-    background-color: green;
+    background-color: beige;
     position: relative;
 }
 
@@ -175,8 +179,72 @@ body {
 
 .a_b span{
     font-size: 15px;
-    color: black;
+    /* color: black; */
     position: absolute;
     top: 35px;
     left: 10px;
+}
+
+.a_footer{
+    width: 100%;
+    min-height: 700px;
+    float: left;
+    /* background-color: purple; */
+    position: relative;
+}
+
+.a_wrt4 span{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    left: 112px;
+    top: 15px;
+}
+
+.a_cardd{
+    width: 100%;
+    height: 210px;
+    float: left;
+    /* background-color: red; */
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_cardd2{
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    float: left;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_card3{
+    width: 20%;
+    height: 200px;
+    /* background-color: aqua; */
+    float: left;
+    margin: 0px 0px 0px 20px;
+    background-image: url('https://media.istockphoto.com/id/1172559714/tr/foto%C4%9Fraf/kulakl%C4%B1k-m%C3%BCzik-konsepti-d%C3%BCz-yat%C4%B1yordu-sar%C4%B1-arka-plan-%C3%BCzerinde-kulakl%C4%B1k-%C3%BCst-te-trendy.jpg?s=170667a&w=0&k=20&c=W30fpnDJZ3Euz-wtrXHVTAKvgtDcU_rJvb9HRiz4aO8=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.a_card4{
+    width: 20%;
+    height: 200px;
+    /* background-color: aqua; */
+    float: left;
+    margin: 0px 0px 0px 20px;
+    background-image: url('https://st4.depositphotos.com/36741820/38049/i/600/depositphotos_380497462-stock-photo-pink-headphone-and-cassette-on.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
