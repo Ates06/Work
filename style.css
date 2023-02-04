@@ -4,6 +4,7 @@ body {
 
 .container{
     background-color: white;
+    padding: 0px;
 }
 
 .a_img {
@@ -21,7 +22,6 @@ body {
     width: 37%;
     min-height: 250px;
     float: left;
-    /* background-color: red; */
     position: absolute;
     top: 300px;
     left: 150px;
@@ -62,20 +62,16 @@ body {
     left: 40px;
 }
 
-/* ================== */
-
 .a_center {
     width: 100%;
-    min-height: 900px;
+    min-height: 750px;
     float: left;
-    /* background-color: brown; */
 }
 
 .a_lorm {
     width: 100%;
     min-height: 250px;
     float: left;
-    /* background-color: aqua; */
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -115,7 +111,6 @@ body {
 .a_card {
     width: 100%;
     min-height: 450px;
-    /* background-color: blue; */
     float: left;
     display: flex;
     justify-content: center;
@@ -135,7 +130,7 @@ body {
 .a_card1 {
     width: 25%;
     height: 250px;
-    /* background-color: peru; */
+    float: left;
 }
 
 .a_writephone {
@@ -154,7 +149,6 @@ body {
     width: 100%;
     height: 170px;
     float: left;
-    /* background-color: brown; */
     background-image: url('https://www.shutterstock.com/image-vector/vector-headphones-icon-flat-design-260nw-350822219.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +159,7 @@ body {
     width: 100%;
     height: 80px;
     float: left;
-    background-color: rgb(247, 220, 122);
+    background-color: #E2D840;
     position: relative;
 }
 
@@ -186,9 +180,8 @@ body {
 
 .a_footer{
     width: 100%;
-    min-height: 700px;
+    min-height: 600px;
     float: left;
-    /* background-color: purple; */
     position: relative;
 }
 
@@ -204,7 +197,6 @@ body {
     width: 100%;
     height: 210px;
     float: left;
-    /* background-color: red; */
     position: absolute;
     top: 90px;
     display: flex;
@@ -215,7 +207,6 @@ body {
 .a_cardd2{
     width: 100%;
     height: 200px;
-    /* background-color: blue; */
     float: left;
     position: absolute;
     top: 300px;
@@ -227,7 +218,6 @@ body {
 .a_card3{
     width: 20%;
     height: 200px;
-    /* background-color: aqua; */
     float: left;
     margin: 0px 0px 0px 20px;
     background-image: url('https://media.istockphoto.com/id/1172559714/tr/foto%C4%9Fraf/kulakl%C4%B1k-m%C3%BCzik-konsepti-d%C3%BCz-yat%C4%B1yordu-sar%C4%B1-arka-plan-%C3%BCzerinde-kulakl%C4%B1k-%C3%BCst-te-trendy.jpg?s=170667a&w=0&k=20&c=W30fpnDJZ3Euz-wtrXHVTAKvgtDcU_rJvb9HRiz4aO8=');
@@ -239,11 +229,59 @@ body {
 .a_card4{
     width: 20%;
     height: 200px;
-    /* background-color: aqua; */
     float: left;
     margin: 0px 0px 0px 20px;
     background-image: url('https://st4.depositphotos.com/36741820/38049/i/600/depositphotos_380497462-stock-photo-pink-headphone-and-cassette-on.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.a_contact{
+    width: 100%;
+    min-height: 150px;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+
+.a_lip{
+    width: 100%;
+    min-height: 150px;
+    float: left;
+    background-color: #E2D840;
+}
+
+.hurrySP span{
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+.likeit span{
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+.lornm{
+    width: 13%;
+    height: 50px;
+    float: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+
+.lornm a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
 }
